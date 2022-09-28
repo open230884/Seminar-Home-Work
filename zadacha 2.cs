@@ -12,14 +12,14 @@ if (n1 == n2)
 {
     Console.WriteLine($"число {n1} равно числу {n2}");
 }
-    else
+else
+   {
+         if (n1 > n2)
         {
-            if (n1 > n2)
-                {
-                    Console.WriteLine($"число {n1} больше числа {n2}");
-                }
-                    else
-                        {
-                            Console.WriteLine($"число {n1} меньше числа {n2}");
-                        }
+        Console.WriteLine($"число {n1} больше числа {n2}");
+        }
+        else
+        {
+        Console.WriteLine($"число {n1} меньше числа {n2}");
+        }
         }
